@@ -1,0 +1,94 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "93fe700c-76b1-448f-955a-64faf5923624",
+            "actions": [
+                {
+                    "name": "Exit",
+                    "type": "Button",
+                    "id": "66380aa5-b2b2-4bc3-82ed-f34115370be7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Resign",
+                    "type": "Button",
+                    "id": "6c445bfa-fe19-45d3-81d4-54a60023d4bb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FiftyFifty",
+                    "type": "Button",
+                    "id": "ba1a8b48-20f2-4a31-8b49-6b558c3c805d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Call a friend",
+                    "type": "Button",
+                    "id": "51511e0b-f791-4237-a226-63be3d9b179b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a824f6f8-5f47-4f45-a727-887c10c56489",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fc90ab6-5f39-4f69-a0eb-84306e6e740e",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Resign",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4730cb7a-f1f7-498f-92da-05bc4320c16c",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FiftyFifty",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba219b2d-c432-400d-a065-90e4fdb9b923",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Call a friend",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
